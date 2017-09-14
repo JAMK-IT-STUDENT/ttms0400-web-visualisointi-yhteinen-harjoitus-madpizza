@@ -1,7 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+    margin:0;
+}
+
+/* Make _EVERYTHING_ use border box*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing;
+}
+
+header, section, nav, main, article{
+    display:    block;
+    width:      100vw;
+    padding:    15px;
+    text-align: center;
 }
 
 /* Mobile Styles */
