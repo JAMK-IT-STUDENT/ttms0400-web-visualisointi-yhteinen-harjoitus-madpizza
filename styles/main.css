@@ -16,23 +16,32 @@ header, section, nav, main, article{
     text-align: center;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #F09A9D; /* Red */
-  }
+nav {
+    background-color: #5995DA;
 }
 
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow */
-  }
+header {
+    background-color: #B2D6FF;
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue */
-  }
+main {
+    background-color: #EAEDF0;
+}
+
+section {
+    background-color: #D6E9FE;
+}
+
+/* Background colours */
+
+.bg-yellow {
+    background-color: #F5CF8E;
+}
+
+.bg-red {
+    background-color: #F09A9D;
+}
+
+.bg-purple {
+    background-color: #C8C6FA;
 }
